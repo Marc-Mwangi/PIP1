@@ -54,7 +54,7 @@ body{
     grid-template-areas:"image" "description" ;
     position: relative;
     top: 150px;
-    background-color: beige;
+    background-color:white;
     margin: 50px;
     border: hidden;
     height: 400px;
@@ -73,5 +73,10 @@ body{
 .project .image2 {
     grid-area: "image";
     background: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+.project .image3{
+    grid-area: "image";
+    background: url("https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
 }
