@@ -54,7 +54,7 @@ body{
     grid-template-areas:"image" "description" ;
     position: relative;
     top: 150px;
-    right: 10%;
+    right: 11%;
     background-color:white;
     margin: 50px;
     border: hidden;
