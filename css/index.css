@@ -54,6 +54,7 @@ body{
     grid-template-areas:"image" "description" ;
     position: relative;
     top: 150px;
+    right: 10%;
     background-color:white;
     margin: 50px;
     border: hidden;
@@ -78,5 +79,12 @@ body{
 .project .image3{
     grid-area: "image";
     background: url("https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+.port h2{
+    color: white;
+    position: relative;
+    left: 45%;
+    top: 10%;
 
 }
