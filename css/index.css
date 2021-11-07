@@ -109,3 +109,6 @@ footer {
     background-color: rgb(243, 207, 207);
     color: black;
 }
+.project:hover{
+    transform: scale(1.1);
+}
