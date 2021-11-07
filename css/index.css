@@ -1,5 +1,5 @@
 .landing {
-    background-color: rgb(161, 58, 58);
+    background-color: rgb(243, 207, 207);
     overflow: visible;
     width: 30%;
     height: 400px;
@@ -20,11 +20,11 @@ body{
     overflow: hidden;
     background-color: black;
     color: white;
+    
 }
 .nav-bar h1{
     float: left;
-    position: fixed;
-    
+    position: fixed;    
 }
 .nav-bar ul li {
     display: inline-block;
@@ -32,4 +32,11 @@ body{
     padding:  20px;
     position: relative;
     left: 200px;
+}
+.about{
+    width: 50%;
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+    text-align: center;
 }
