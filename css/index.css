@@ -1,0 +1,35 @@
+.landing {
+    background-color: rgb(161, 58, 58);
+    overflow: visible;
+    width: 30%;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    border-radius: 30%;
+}
+.landing img{
+    position: relative;
+    bottom: 180px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.nav-bar h1{
+    float: left;
+    position: fixed;
+    
+}
+.nav-bar ul li {
+    display: inline-block;
+    text-align: center;
+    padding:  20px;
+    position: relative;
+    left: 200px;
+}
