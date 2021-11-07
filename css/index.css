@@ -53,13 +53,14 @@ body{
     grid-template-columns: 350px;
     grid-template-areas:"image" "description" ;
     position: relative;
-    top: 200px;
+    top: 150px;
     background-color: beige;
-    margin: 20px;
+    margin: 50px;
     border: hidden;
     height: 400px;
     border-radius: 15%;
     box-shadow: 5px;
+    text-align: center;
 }
 .project .image {
     grid-area: "image";
@@ -68,4 +69,9 @@ body{
 .project .description {
     grid-area: "description";
     height: 5px;
+}
+.project .image2 {
+    grid-area: "image";
+    background: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
 }
